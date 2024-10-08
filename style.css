@@ -1,0 +1,133 @@
+.main{
+   background-image: url(./backround.jpg);
+   margin: auto;
+   width: 70%;
+   margin-top: 5px;
+}
+
+
+@media only screen and (max-width:375px) {
+   /* For mobile phones: */
+   .main{
+     width: 100%;
+     padding: 10px;
+  
+ }
+
+ @media only screen and (max-width:500px) {
+   /* For tablets: */
+   .main {
+     width: 100%;
+     padding: 10px;
+  
+ }
+
+ @media only screen and (max-width:1440px) {
+    /* For laptops: */
+    .main {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+   
+  }
+
+  }
+
+ }
+
+ }
+.special-invitation{
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   margin: auto;
+   width: 25%;
+   color: indigo;
+   font-size: 35px;
+   position: relative;
+   top: 30px;
+   font-weight: bold;
+   
+
+}
+
+.join{
+   margin: auto;
+   width: 50%;
+   position: relative;
+   top: 50px;
+   font-size: 30px;
+   text-align: center;
+   color: goldenrod;
+}
+  .flexx{
+   display: flex;
+  }
+.name{
+   display: grid;
+   color: goldenrod;
+   width: 300px;
+   position: relative;
+   left: 50px;
+   top: 53px;
+   font-size: 30px;
+}
+
+.image{
+   display: flex;
+   gap: 10px;
+   margin: auto;
+   width: 50%;
+   position: relative;
+   
+   
+   top: 53px;
+   
+   
+}
+
+img{
+   width: 50%;
+   margin: auto;
+   border-radius: 50%;
+}
+
+.church{
+   margin-top: -50px;
+   width: auto;
+   margin: auto;
+}
+
+.home{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 20px;
+   color: goldenrod;
+}
+
+.day{
+   border: 2px solid white;
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+   position: relative;
+   top: 200px;
+   right: 50px;
+   text-align: center;
+   color: indigo;
+   background-color: white;
+}
+
+.time{
+   border: 2px solid white;
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+   position: relative;
+   top: 200px;
+   right: 50px;
+   text-align: center;
+   color: indigo;
+   background-color: white;
+
+}
